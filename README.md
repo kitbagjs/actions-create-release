@@ -25,7 +25,7 @@ jobs:
       contents: write
     
     steps:
-      - uses: kitbagjs/actions-create-release @main
+      - uses: kitbagjs/actions-create-release@main
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
