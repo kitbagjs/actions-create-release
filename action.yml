@@ -25,3 +25,4 @@ runs:
             --title="Release ${{steps.version.outputs.full_without_prefix}}" \
             --generate-notes \
             ${{ steps.version.outputs.is_stable != 'true' && '--prerelease' || '' }}
+      shell: bash
